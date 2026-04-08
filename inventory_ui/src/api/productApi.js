@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:3000/api/products';
+const API_URL = 'https://lesson-7-3-inventory.onrender.com/api/products';
 
 // Get all products
 export const getProducts = async () => {
